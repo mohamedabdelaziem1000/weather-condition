@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather condition</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary py-5 pt-4 bg-nav ">
+    <div class="container px-5 ">
+      <a class="navbar-brand text-white ps-lg-5" href="#">
+        <img src="images/logo@2x.png" alt="" class="me-2" width="64px" height="38px">
+        
+      <div class="d-inline-block align-bottom">
+        <h1 class="px16 ">Weather
+          </h1>
+        <h3 class="px10 mb-0 text-secondary">
+          tagline goes here</h3>
+      </div></a>
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse pe-lg-5 mt-3" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center bg-mobile rounded-2">
+          <li class="nav-item px-1 py-2 nav-border">
+            <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item px-1 py-2 nav-border">
+            <a class="nav-link text-white" href="#">News</a>
+          </li>
+          <li class="nav-item px-1 py-2 nav-border">
+            <a class="nav-link text-white" href="#">Live cameras</a>
+          </li>
+          <li class="nav-item px-1 py-2 nav-border">
+            <a class="nav-link text-white" href="#">Photos</a>
+          </li>
+          <li class="nav-item px-1 py-2 nav-border rounded-2">
+            <a class="nav-link text-white" href="#">Contact</a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+<div class="pic ">
+  <div class="weather-now">
+    <div class="container  w-75 ">
+      <div class="container  mb-5">
+        <form class="position-relative">
+          <input type="text" placeholder="Find your location..." id="search" class="form-control rounded-pill py-3 mx-auto">
+          <input type="button" value="Find" id="submit">
+      </form>
+      </div>
+      <div class="row weather-container rounded-2 mb-3" >
+        <div class="today forecast col-md-4  bg-city px-0" id="weatherToday">
+      </div>
+      <div class="forecast col-md-4 bg-middle-day px-0" id="mid-header">
+        </div>
+        <div class="forecast col-md-4 bg-city px-0"id="date">
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer bg-middle-day">
+  <div class=" height"></div>
+  <div class="container ">
+    <div class="row">
+      <div class="col-md-8">
+        <form action="#" class="subscribe-form position-relative mt-4">
+          <input type="text" placeholder="Enter your email to subscribe..." class="form-control rounded-pill bg-nav py-3 mx-auto">
+          <input type="button" value="Subscribe">
+        </form>
+      </div>
+      <div class="col-md-3 ">
+        <div class="social-links text-center mt-4">
+          <div class="bg-nav rounded-circle  me-1 d-inline-flex justify-content-center align-items-center"><i class="fa-brands fa-facebook-f sky-text px20"></i></div>
+          <div class="bg-nav rounded-circle  me-1 d-inline-flex justify-content-center align-items-center"><i class="fa-brands fa-twitter sky-text px20"></i></div>
+          <div class="bg-nav rounded-circle  me-1 d-inline-flex justify-content-center align-items-center"><i class="fa-brands fa-google-plus-g sky-text px20"></i></div>
+          <div class="bg-nav rounded-circle  me-1 d-inline-flex justify-content-center align-items-center"><i class="fa-brands fa-pinterest sky-text px20"></i></div>
+        </div>
+      </div>
+    </div>
+
+    <p class=" my-text text-center mt-5 ">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+  </div>
+</footer>
+
+  
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
